@@ -1,0 +1,92 @@
+{
+  "personal_info": {
+    "name": "Kurian Jose",
+    "contact": {
+      "phone": "+91 9354502635",
+      "email": "kurianjoseoff@gmail.com",
+      "linkedin": "linkedin.com/in/Kurian",
+      "github": "github.com/Kurian"
+    },
+    "objective": "AI/ML developer with practical experience in LLMs, Retrieval-Augmented Generation (RAG), NLP, and prompt engineering. Specialized in building legal-tech tools and automation workflows using LangChain, FAISS, and OpenAI/Groq APIs. Eager to drive applied AI solutions in high-impact domains like law, finance, and enterprise automation."
+  },
+  "education": [
+    {
+      "institution": "Galgotias University",
+      "degree": "B.Tech in Computer Science",
+      "specialization": "AI and Machine Learning",
+      "dates": "Oct 2023 - Present",
+      "location": "Greater Noida, UP",
+      "courses": ["Machine Learning", "NLP", "Data Structures", "Algorithms"]
+    },
+    {
+      "institution": "Father Agnel School",
+      "degree": "Senior Secondary Education",
+      "dates": "March 2021 - May 2023",
+      "location": "New Delhi"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Astron Financial Solutions",
+      "role": "AI Intern",
+      "dates": "June 2025 - Present",
+      "responsibilities": [
+        "Built a legal case brief generator using Python, Streamlit, and LangChain with Groq API, reducing manual summarization time by 40%.",
+        "Developed a legal question generator (MCQ + Subjective) from Constitutional Law case briefs using LLM prompt engineering, improving content generation efficiency by 30%.",
+        "Automated legal case retrieval and summarization from Indian Kanoon using Selenium and OpenRouter API with plain-English search.",
+        "Created an AI Model Consolidator to compare and merge LLM outputs (OpenAI, Gemini, DeepSeek) using Streamlit and Meta LLAMA-3.",
+        "Implemented a GSTR vs Purchase Register reconciliation tool in Python using pandas, enhancing GST audit accuracy and compliance."
+      ],
+      "tech_stack": ["Python", "Streamlit", "LangChain", "Groq API", "OpenRouter", "Gemini API", "Selenium", "FAISS", "pandas", "Git"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Legal Case Brief Generator using LLMs",
+      "description": "Developed a Streamlit-based web application that automates the generation of legal case briefs from PDF documents using a large language model (LLM). The tool allows users to upload legal case files, automatically extracts and chunks the content, and generates structured brief sections including Facts, Issue, Rule, Application, and Conclusion using the ChatGroq model (deepseek-r1-distill-llama-70b).",
+      "tech": ["Python", "Streamlit", "LangChain", "Groq API", "pdfplumber", "dotenv"],
+      "status": "Completed"
+    },
+    {
+        "title": "Legal Scenario-Based Question Generator (MCQ & Subjective)",
+        "description": "Built a web-based application using Streamlit that generates scenario-based legal questions (both MCQs and open-ended) from Indian constitutional law case briefs, specifically focused on Article 21 topics. The app allows users to upload a legal case PDF and generates pedagogically sound questions using a Groq-hosted LLM.",
+        "tech": ["Python", "Streamlit", "Groq API", "pdfplumber", "PyPDF2", "regex", "dotenv"],
+        "status": "Completed"
+    },
+    {
+        "title": "Automated Case Law Finder & PDF Downloader",
+        "description": "Designed a CLI-based automation pipeline that accepts a natural-language legal issue, uses an LLM (via OpenRouter API) to fetch relevant Supreme Court case titles, normalizes them, searches Indian Kanoon, and downloads the judgments as PDFs.",
+        "tech": ["Python", "OpenRouter (LLM API)", "Selenium", "Indian Kanoon", "ChromeDriver", "Regex", "dotenv"],
+        "status": "Completed"
+    },
+    {
+      "title": "AI Lawyer - Legal QA Chatbot (RAG)",
+      "description": "Developed a PDF-querying legal chatbot using Retrieval-Augmented Generation (RAG) architecture. Used FAISS and Ollama for document indexing and vector search; integrated DeepSeek via Groq API. Handled chunking, embedding, and LLM orchestration using LangChain.",
+      "tech": ["LangChain", "FAISS", "Ollama", "DeepSeek", "Groq API"]
+    },
+    {
+      "title": "Surakshita - Real-Time Audio Safety Alert App",
+      "description": "Built a real-time audio-based distress detection app using BiLSTM that triggered automated alerts. Developed a gender classification model to identify female voices in potential threat scenarios and integrated Google Maps API for geolocation-based emergency response.",
+      "tech": ["TensorFlow", "BiLSTM", "Google Maps API"],
+      "date": "August 2024"
+    }
+  ],
+  "skills": {
+    "languages": ["Python", "Java", "C", "SQL"],
+    "ai_ml": ["Transformers", "LLMs", "LangChain", "Retrieval-Augmented Generation (RAG)", "Prompt Engineering", "BiLSTM", "TensorFlow", "NLP (NLTK, Regex)"],
+    "frameworks_tools": ["Streamlit", "Flask", "Selenium", "Git", "VS Code", "PyCharm", "Google Colab", "GCP", "Figma"],
+    "apis_libraries": ["OpenAI", "Groq Cloud", "OpenRouter", "FAISS", "dotenv"],
+    "in_progress": ["Hugging Face Transformers", "Async LLM Orchestration", "Scalable RAG Pipelines"]
+  },
+  "certifications": [
+    {
+      "name": "Python for Data Science, AI & Development",
+      "issuer": "IBM"
+    },
+    {
+      "name": "100 Days of Python Expert",
+      "issuer": "Guvi Education"
+    }
+  ],
+  "soft_skills": "Strong leadership and teamwork from hackathon experiences, adept problem-solver, and highly adaptable with rapid learning of tools like TensorFlow and NLP libraries."
+}
