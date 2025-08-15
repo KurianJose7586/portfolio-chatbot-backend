@@ -48,6 +48,8 @@ def json_to_text(json_data):
 def initialize_rag_chain():
     global rag_chain
     try:
+        os.environ['SENTENCE_TRANSFORMERS_HOME'] = '/tmp'
+
         # 1. Load data from JSON file
         print("Loading data from knowledge_base.json...")
         data_dir = "data"
