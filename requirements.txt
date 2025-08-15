@@ -1,3 +1,5 @@
+# hf-backend/requirements.txt
+
 flask
 flask_cors
 langchain
@@ -7,3 +9,4 @@ langchain-text-splitters
 faiss-cpu
 sentence-transformers
 python-dotenv
+gunicorn
