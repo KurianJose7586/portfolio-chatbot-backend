@@ -119,6 +119,7 @@ def chat():
     try:
         result = rag_chain.invoke({"input": user_message})
         raw_response = result.get('answer', "I couldn't generate a response.")
+        print(f"DEBUG RAW RESPONSE:\n{raw_response}\n----------------")
         clean_response = strip_think_tags(raw_response)
         return jsonify({'reply': clean_response})
     except Exception as e:
